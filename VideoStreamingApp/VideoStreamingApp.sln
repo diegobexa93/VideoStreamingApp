@@ -1,0 +1,136 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{D676A541-16B4-4506-B7C3-349F9A772744}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserManagement", "UserManagement", "{0FF116F5-916C-4844-AA61-3F91340C804C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContentManagement", "ContentManagement", "{9053FD1E-CC6C-4C2B-BD03-4028040C9F6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Streaming", "Streaming", "{5A0808B1-EC0E-4365-8DB1-AA058BB7E043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{94FDA0BC-7F84-4674-89BE-7D37CE102FF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E20BE016-F2E1-45BB-AC81-41669F8B3E25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analytics", "Analytics", "{323C92FC-DFB3-444E-AF8F-8A9CD2FFCA2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.SharedKernel", "VideoStreamingApp.SharedKernel\VideoStreamingApp.SharedKernel.csproj", "{E0F230EE-4F45-4A5D-8D5E-CBA93221BF2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.Modules.UserManagement.Domain", "VideoStreamingApp.Modules.UserManagement.Domain\VideoStreamingApp.Modules.UserManagement.Domain.csproj", "{02295007-D22D-4153-87EA-758BD1BAC383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.Modules.UserManagement.Application", "VideoStreamingApp.Modules.UserManagement.Application\VideoStreamingApp.Modules.UserManagement.Application.csproj", "{C0AAF461-06DA-46A0-9F9A-C84A3017D506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.Modules.UserManagement.Infrastructure", "VideoStreamingApp.Modules.UserManagement.Infrastructure\VideoStreamingApp.Modules.UserManagement.Infrastructure.csproj", "{17FB5B5C-5046-426D-AD06-6CCC4E2D504F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.Modules.Streaming.Domain", "VideoStreamingApp.Modules.Streaming.Domain\VideoStreamingApp.Modules.Streaming.Domain.csproj", "{8EDF2210-14B4-437E-B42A-23567DB3032D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.Modules.Streaming.Application", "VideoStreamingApp.Modules.Streaming.Application\VideoStreamingApp.Modules.Streaming.Application.csproj", "{3221DDE6-3DAB-43C7-AACD-E6BBEB6AADD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.Modules.Streaming.Infrastructure", "VideoStreamingApp.Modules.Streaming.Infrastructure\VideoStreamingApp.Modules.Streaming.Infrastructure.csproj", "{549CA867-C6C5-47E6-84B2-A7A4A367B3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.Modules.ContentManagement.Domain", "VideoStreamingApp.Modules.ContentManagement.Domain\VideoStreamingApp.Modules.ContentManagement.Domain.csproj", "{BA4DC791-9B69-40EF-8A67-733584287FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.Modules.ContentManagement.Application", "VideoStreamingApp.Modules.ContentManagement.Application\VideoStreamingApp.Modules.ContentManagement.Application.csproj", "{F8F54E8C-167A-4E62-84D5-F613E8AD140F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.Modules.ContentManagement.Infrastructure", "VideoStreamingApp.Modules.ContentManagement.Infrastructure\VideoStreamingApp.Modules.ContentManagement.Infrastructure.csproj", "{6D17E231-329E-4CA1-B178-073E37F21AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.Modules.Analytics.Domain", "VideoStreamingApp.Modules.Analytics.Domain\VideoStreamingApp.Modules.Analytics.Domain.csproj", "{2039FCF3-BC08-4825-B0D0-00B345896C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.Modules.Analytics.Application", "VideoStreamingApp.Modules.Analytics.Application\VideoStreamingApp.Modules.Analytics.Application.csproj", "{FA957EF3-4DCF-4948-9190-E9DD7E91DC77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.Modules.Analytics.Infrastructure", "VideoStreamingApp.Modules.Analytics.Infrastructure\VideoStreamingApp.Modules.Analytics.Infrastructure.csproj", "{18B73C91-450A-4C18-9336-344BFFE9F8C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{C84AE3D0-9D51-46E7-86C1-4102A66F6346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStreamingApp.API", "VideoStreamingApp.API\VideoStreamingApp.API.csproj", "{5254CDE2-DF5B-4431-B560-5166B6289F34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0F230EE-4F45-4A5D-8D5E-CBA93221BF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F230EE-4F45-4A5D-8D5E-CBA93221BF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F230EE-4F45-4A5D-8D5E-CBA93221BF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F230EE-4F45-4A5D-8D5E-CBA93221BF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02295007-D22D-4153-87EA-758BD1BAC383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02295007-D22D-4153-87EA-758BD1BAC383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02295007-D22D-4153-87EA-758BD1BAC383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02295007-D22D-4153-87EA-758BD1BAC383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AAF461-06DA-46A0-9F9A-C84A3017D506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AAF461-06DA-46A0-9F9A-C84A3017D506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AAF461-06DA-46A0-9F9A-C84A3017D506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AAF461-06DA-46A0-9F9A-C84A3017D506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FB5B5C-5046-426D-AD06-6CCC4E2D504F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FB5B5C-5046-426D-AD06-6CCC4E2D504F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FB5B5C-5046-426D-AD06-6CCC4E2D504F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FB5B5C-5046-426D-AD06-6CCC4E2D504F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF2210-14B4-437E-B42A-23567DB3032D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF2210-14B4-437E-B42A-23567DB3032D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF2210-14B4-437E-B42A-23567DB3032D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF2210-14B4-437E-B42A-23567DB3032D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3221DDE6-3DAB-43C7-AACD-E6BBEB6AADD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3221DDE6-3DAB-43C7-AACD-E6BBEB6AADD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3221DDE6-3DAB-43C7-AACD-E6BBEB6AADD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3221DDE6-3DAB-43C7-AACD-E6BBEB6AADD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549CA867-C6C5-47E6-84B2-A7A4A367B3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549CA867-C6C5-47E6-84B2-A7A4A367B3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549CA867-C6C5-47E6-84B2-A7A4A367B3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549CA867-C6C5-47E6-84B2-A7A4A367B3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA4DC791-9B69-40EF-8A67-733584287FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4DC791-9B69-40EF-8A67-733584287FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4DC791-9B69-40EF-8A67-733584287FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4DC791-9B69-40EF-8A67-733584287FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F54E8C-167A-4E62-84D5-F613E8AD140F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F54E8C-167A-4E62-84D5-F613E8AD140F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F54E8C-167A-4E62-84D5-F613E8AD140F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F54E8C-167A-4E62-84D5-F613E8AD140F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D17E231-329E-4CA1-B178-073E37F21AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D17E231-329E-4CA1-B178-073E37F21AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D17E231-329E-4CA1-B178-073E37F21AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D17E231-329E-4CA1-B178-073E37F21AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2039FCF3-BC08-4825-B0D0-00B345896C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2039FCF3-BC08-4825-B0D0-00B345896C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2039FCF3-BC08-4825-B0D0-00B345896C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2039FCF3-BC08-4825-B0D0-00B345896C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA957EF3-4DCF-4948-9190-E9DD7E91DC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA957EF3-4DCF-4948-9190-E9DD7E91DC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA957EF3-4DCF-4948-9190-E9DD7E91DC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA957EF3-4DCF-4948-9190-E9DD7E91DC77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B73C91-450A-4C18-9336-344BFFE9F8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B73C91-450A-4C18-9336-344BFFE9F8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B73C91-450A-4C18-9336-344BFFE9F8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B73C91-450A-4C18-9336-344BFFE9F8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5254CDE2-DF5B-4431-B560-5166B6289F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5254CDE2-DF5B-4431-B560-5166B6289F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5254CDE2-DF5B-4431-B560-5166B6289F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5254CDE2-DF5B-4431-B560-5166B6289F34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FF116F5-916C-4844-AA61-3F91340C804C} = {D676A541-16B4-4506-B7C3-349F9A772744}
+		{9053FD1E-CC6C-4C2B-BD03-4028040C9F6A} = {D676A541-16B4-4506-B7C3-349F9A772744}
+		{5A0808B1-EC0E-4365-8DB1-AA058BB7E043} = {D676A541-16B4-4506-B7C3-349F9A772744}
+		{323C92FC-DFB3-444E-AF8F-8A9CD2FFCA2E} = {D676A541-16B4-4506-B7C3-349F9A772744}
+		{E0F230EE-4F45-4A5D-8D5E-CBA93221BF2C} = {94FDA0BC-7F84-4674-89BE-7D37CE102FF3}
+		{02295007-D22D-4153-87EA-758BD1BAC383} = {0FF116F5-916C-4844-AA61-3F91340C804C}
+		{C0AAF461-06DA-46A0-9F9A-C84A3017D506} = {0FF116F5-916C-4844-AA61-3F91340C804C}
+		{17FB5B5C-5046-426D-AD06-6CCC4E2D504F} = {0FF116F5-916C-4844-AA61-3F91340C804C}
+		{8EDF2210-14B4-437E-B42A-23567DB3032D} = {5A0808B1-EC0E-4365-8DB1-AA058BB7E043}
+		{3221DDE6-3DAB-43C7-AACD-E6BBEB6AADD0} = {5A0808B1-EC0E-4365-8DB1-AA058BB7E043}
+		{549CA867-C6C5-47E6-84B2-A7A4A367B3E7} = {5A0808B1-EC0E-4365-8DB1-AA058BB7E043}
+		{BA4DC791-9B69-40EF-8A67-733584287FF7} = {9053FD1E-CC6C-4C2B-BD03-4028040C9F6A}
+		{F8F54E8C-167A-4E62-84D5-F613E8AD140F} = {9053FD1E-CC6C-4C2B-BD03-4028040C9F6A}
+		{6D17E231-329E-4CA1-B178-073E37F21AD6} = {9053FD1E-CC6C-4C2B-BD03-4028040C9F6A}
+		{2039FCF3-BC08-4825-B0D0-00B345896C4C} = {323C92FC-DFB3-444E-AF8F-8A9CD2FFCA2E}
+		{FA957EF3-4DCF-4948-9190-E9DD7E91DC77} = {323C92FC-DFB3-444E-AF8F-8A9CD2FFCA2E}
+		{18B73C91-450A-4C18-9336-344BFFE9F8C3} = {323C92FC-DFB3-444E-AF8F-8A9CD2FFCA2E}
+		{5254CDE2-DF5B-4431-B560-5166B6289F34} = {C84AE3D0-9D51-46E7-86C1-4102A66F6346}
+	EndGlobalSection
+EndGlobal
